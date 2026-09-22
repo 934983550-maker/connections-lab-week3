@@ -1,0 +1,156 @@
+{
+    "questions": [
+        {
+            "question": "You hear something moving in the basement at 2 AM. What do you do?",
+            "answers": [
+                {
+                    "text": "Go downstairs immediately.",
+                    "traits": {
+                        "courage": 3,
+                        "curiosity": 2,
+                        "risk": 3
+                    }
+                },
+                {
+                    "text": "Wake up your friends first.",
+                    "traits": {
+                        "loyalty": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Stay upstairs and investigate from a distance.",
+                    "traits": {
+                        "caution": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Ignore it and go back to sleep.",
+                    "traits": {
+                        "caution": 2,
+                        "risk": -1
+                    }
+                }
+            ]
+        },
+
+        {
+            "question": "You find a strange object in the woods. What do you do?",
+            "answers": [
+                {
+                    "text": "Pick it up and examine it.",
+                    "traits": {
+                        "curiosity": 3,
+                        "risk": 2
+                    }
+                },
+                {
+                    "text": "Take a photo and leave it there.",
+                    "traits": {
+                        "caution": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Bring it back to your friends.",
+                    "traits": {
+                        "loyalty": 3,
+                        "curiosity": 1
+                    }
+                },
+                {
+                    "text": "Destroy it before anything happens.",
+                    "traits": {
+                        "courage": 2,
+                        "risk": 3
+                    }
+                }
+            ]
+        },
+
+        {
+            "question": "Your friend disappears after telling you they found something strange. What do you do?",
+            "answers": [
+                {
+                    "text": "Go looking for them alone.",
+                    "traits": {
+                        "courage": 3,
+                        "loyalty": 3,
+                        "risk": 2
+                    }
+                },
+                {
+                    "text": "Get the whole group together.",
+                    "traits": {
+                        "loyalty": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Try to figure out what happened first.",
+                    "traits": {
+                        "curiosity": 3,
+                        "caution": 2
+                    }
+                },
+                {
+                    "text": "Stay home. It is too dangerous.",
+                    "traits": {
+                        "caution": 4
+                    }
+                }
+            ]
+        }
+    ],
+
+    "types": [
+        {
+            "name": "THE PROTECTOR",
+            "description": "You put other people first. When something goes wrong, your instinct is to protect the people around you.",
+            "traits": {
+                "courage": 8,
+                "curiosity": 4,
+                "loyalty": 10,
+                "caution": 6,
+                "risk": 5
+            }
+        },
+
+        {
+            "name": "THE INVESTIGATOR",
+            "description": "You need to know what is happening. Strange things make you more curious rather than more afraid.",
+            "traits": {
+                "courage": 6,
+                "curiosity": 10,
+                "loyalty": 5,
+                "caution": 4,
+                "risk": 8
+            }
+        },
+
+        {
+            "name": "THE SURVIVOR",
+            "description": "You think before you act. Staying alive means understanding the danger before taking unnecessary risks.",
+            "traits": {
+                "courage": 4,
+                "curiosity": 4,
+                "loyalty": 6,
+                "caution": 10,
+                "risk": 2
+            }
+        },
+
+        {
+            "name": "THE REBEL",
+            "description": "You do not like being told what to do. When everyone else runs away, you are probably going toward the problem.",
+            "traits": {
+                "courage": 9,
+                "curiosity": 8,
+                "loyalty": 5,
+                "caution": 2,
+                "risk": 10
+            }
+        }
+    ]
+}
